@@ -1,10 +1,24 @@
 import React from 'react'
 import './Navbar.css'
+import { assets } from '../../assets/assets'
 
 const Navbar = () => {
   return (
-    <div>
-      
+    <div className='navbar'>
+      <div className="navbar-left">
+        <img src={assets.logo} alt="" className="logo" />
+        <h2 className='app-name'>FoodDel</h2>
+        <ul className="navbar-items">
+          <a href="" className="navbar-item">Home</a>
+          <a href='' className="navbar-item">Explore Menu</a>
+          <a href='' className="navbar-item">Mobile App</a>
+          <a href='' className="navbar-item">Contact Us</a>
+        </ul>
+      </div>
+      <div className="navbar-right">
+        <button className="login-btn">Login</button>
+        <button className="signup-btn">Sign Up</button>
+      </div>
     </div>
   )
 }
