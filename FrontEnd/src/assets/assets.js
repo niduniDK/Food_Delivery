@@ -16,6 +16,7 @@ import remove_icon_red from './remove_icon_red.png'
 import search_icon from './search_icon.png'
 import selector_icon from './selector_icon.png'
 import twitter_icon from './twitter_icon.png'
+import header_image from './header_image.png'
 
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -77,5 +78,6 @@ export const assets = {
     remove_icon_red,
     search_icon,
     selector_icon,
-    twitter_icon
+    twitter_icon,
+    header_image
 }

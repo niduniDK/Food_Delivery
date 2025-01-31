@@ -1,0 +1,47 @@
+.header{
+    position: relative;
+    background-image: url('../../assets/header_image.png');
+    background-size: cover;
+    padding: 50px;
+    margin: 30px;
+    height: 300px;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.header p{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 20px;
+    animation: fadeIn 5s;
+}
+
+.explore-button{
+    position: relative;
+    font-size: 15px;
+    color: tomato;
+    background-color: transparent;
+    border: 2px solid tomato;
+    font-weight: bold;
+    z-index: 2;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+    margin-left: 650px;
+    cursor: pointer;
+    animation: fadeIn 5s;
+}
