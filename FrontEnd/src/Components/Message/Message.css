@@ -1,0 +1,17 @@
+.msg{
+    display: flex;
+    justify-content: left;
+    background-color: lightcoral;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+}
+.bot{
+    margin: 20px;
+}

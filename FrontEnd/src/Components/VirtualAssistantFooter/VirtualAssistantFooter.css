@@ -1,0 +1,20 @@
+.prompt-input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+.chat-footer{
+    margin: 20px;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.submit-prompt{
+    margin: 20px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

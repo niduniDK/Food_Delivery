@@ -1,0 +1,16 @@
+.cart-items{
+    margin: 30px;
+}
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.proceed-transaction{
+    margin: 20px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -16,6 +17,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
+        <Link to='/virtual-assistant'><img src={assets.bot} alt="" className='bot'/></Link>
         <button className="login-btn">Login</button>
         <button className="signup-btn">Sign Up</button>
       </div>

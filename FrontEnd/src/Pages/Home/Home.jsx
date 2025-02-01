@@ -5,6 +5,7 @@ import { assets } from '../../assets/assets'
 import Header from '../../Components/Header/Header'
 import ExploreMenu from '../../Components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay'
+import VirtualAssistant from '../../Components/VirtualAssistant/VirtualAssistant'
 
 const Home = () => {
   return (

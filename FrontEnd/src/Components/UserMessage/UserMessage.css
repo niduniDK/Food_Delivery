@@ -1,0 +1,11 @@
+.user-msg{
+    display: flex;
+    justify-content: left;
+    background-color: lightpink;
+    width: 40%;
+    margin: 30px;
+    margin-left: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}

@@ -11,12 +11,12 @@ const Cart = () => {
       <div className="cart-items">
         <h2>Cart</h2>
         <div className="cart-item">
-              <p>Item</p>
-              <p className="item-name">Name</p>
-              <p className="item-count">Count</p>
-              <p className="price">Price</p>
-              <p className="total">Total</p>
-            </div>
+          <p>Item</p>
+          <p className="item-name">Name</p>
+          <p className="item-count">Count</p>
+          <p className="price">Price</p>
+          <p className="total">Total</p>
+        </div>
         {cartItems.map((item) => {
           return (
             <div className="cart-item">

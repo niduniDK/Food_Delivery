@@ -17,6 +17,7 @@ import search_icon from './search_icon.png'
 import selector_icon from './selector_icon.png'
 import twitter_icon from './twitter_icon.png'
 import header_image from './header_image.png'
+import bot from './bot.png'
 
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -79,7 +80,8 @@ export const assets = {
     search_icon,
     selector_icon,
     twitter_icon,
-    header_image
+    header_image,
+    bot
 }
 
 export const food_list = [
