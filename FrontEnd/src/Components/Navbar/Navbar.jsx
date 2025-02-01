@@ -9,8 +9,8 @@ const Navbar = () => {
         <img src={assets.logo} alt="" className="logo" />
         <h2 className='app-name'>FoodDel</h2>
         <ul className="navbar-items">
-          <a href="" className="navbar-item">Home</a>
-          <a href='' className="navbar-item">Explore Menu</a>
+          <a href="/" className="navbar-item">Home</a>
+          <a href='#explore-menu' className="navbar-item">Explore Menu</a>
           <a href='' className="navbar-item">Mobile App</a>
           <a href='' className="navbar-item">Contact Us</a>
         </ul>

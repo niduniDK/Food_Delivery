@@ -1,0 +1,11 @@
+.explore-menu-title, .menu-items{
+    margin: 50px;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.menu-item-image{
+    cursor: pointer;
+}

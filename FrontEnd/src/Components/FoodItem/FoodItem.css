@@ -1,0 +1,27 @@
+.item-image{
+    width: 200px;
+    height: inherit;
+    border-radius: 200px;
+}
+.food-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.item-image, .item-name, .item-desc, .item-price, .item-category, .add-to-cart{
+    margin: 8px;
+}
+.item-desc{
+    align-content: justify;
+}
+.add-to-cart{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

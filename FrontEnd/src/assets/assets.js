@@ -314,3 +314,38 @@ export const food_list = [
         category: "Noodles"
     }
 ]
+
+export const menu_list = [
+    {
+        name: "Salad",
+        image: menu_1
+    },
+    {
+        name: "Rolls",
+        image: menu_2
+    },
+    {
+        name: "Deserts",
+        image: menu_3
+    },
+    {
+        name: "Sandwich",
+        image: menu_4   
+    },
+    {
+        name: "Cake",
+        image: menu_5
+    },
+    {
+        name: "Pure Veg",
+        image: menu_6
+    },
+    {
+        name: "Pasta",
+        image: menu_7
+    },
+    {
+        name: "Noodles",
+        image: menu_8
+    }
+]
