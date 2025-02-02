@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="navbar-right">
         <Link to='/virtual-assistant'><img src={assets.bot} alt="" className='bot'/></Link>
         <button className="login-btn" onClick={() => navigate('/login')}>Login</button>
-        <button className="signup-btn">Sign Up</button>
+        <button className="signup-btn" onClick={() => navigate('/signup')}>Sign Up</button>
       </div>
     </div>
   )

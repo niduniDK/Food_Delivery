@@ -7,6 +7,7 @@ import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
 import VirtualAssistant from './Components/VirtualAssistant/VirtualAssistant'
 import FoodDisplay from './Components/FoodDisplay/FoodDisplay'
 import Login from './Components/Login/Login'
+import SignUp from './Components/SignUp/SignUp'
 
 const App = () => {
   return (
@@ -14,10 +15,12 @@ const App = () => {
       <div className='app'>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/place-order' element={<PlaceOrder/>}/>
           <Route path='/virtual-assistant' element={<VirtualAssistant/>}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/signup' element={<SignUp/>}/>
         </Routes>
       </div>
     </>
