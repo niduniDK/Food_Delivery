@@ -1,0 +1,16 @@
+.login-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+.login-button{
+    margin: 20px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
