@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.contact-info h3, .mobile-app h3, .social-media h3{
+    color: white;
+    padding: 10px;
+}
+.contact-info p{
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.mobile-app img, .social-media img{
+    padding: 10px;
+    cursor: pointer;
+}

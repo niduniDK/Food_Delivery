@@ -7,13 +7,13 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="navbar-left">
-        <img src={assets.logo} alt="" className="logo" />
-        <h2 className='app-name'>FoodDel</h2>
+        <a href='/'><img src={assets.logo} alt="" className="logo" /></a>
+        <h2 className='app-name'><a href="/">FoodDel</a></h2>
         <ul className="navbar-items">
           <a href="/" className="navbar-item">Home</a>
           <a href='#explore-menu' className="navbar-item">Explore Menu</a>
-          <a href='' className="navbar-item">Mobile App</a>
-          <a href='' className="navbar-item">Contact Us</a>
+          <a href='#mobile-app' className="navbar-item">Mobile App</a>
+          <a href='#contact-info' className="navbar-item">Contact Us</a>
         </ul>
       </div>
       <div className="navbar-right">

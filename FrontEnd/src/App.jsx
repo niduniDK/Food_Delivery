@@ -5,6 +5,7 @@ import Cart from './Pages/Cart/Cart'
 import { Routes, Route } from 'react-router-dom'
 import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
 import VirtualAssistant from './Components/VirtualAssistant/VirtualAssistant'
+import FoodDisplay from './Components/FoodDisplay/FoodDisplay'
 
 const App = () => {
   return (

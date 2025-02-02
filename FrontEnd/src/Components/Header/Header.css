@@ -45,3 +45,8 @@
     cursor: pointer;
     animation: fadeIn 5s;
 }
+
+.explore-button a{
+    text-decoration: none;
+    color: tomato;
+}

@@ -6,6 +6,7 @@ import Header from '../../Components/Header/Header'
 import ExploreMenu from '../../Components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay'
 import VirtualAssistant from '../../Components/VirtualAssistant/VirtualAssistant'
+import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Header />
       <ExploreMenu />
       <FoodDisplay />
+      <Footer />
     </div>
   )
 }

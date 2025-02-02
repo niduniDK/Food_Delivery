@@ -2,8 +2,10 @@ import React from 'react'
 import './FoodDisplay.css'
 import FoodItem from '../FoodItem/FoodItem'
 import { food_list } from '../../assets/assets'
+import { useNavigate } from 'react-router-dom'
 
 const FoodDisplay = () => {
+
   return (
     <div className='food-display' id='food-display'>
       <h2 className='food-display-title'>Food Display</h2>
